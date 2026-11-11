@@ -206,3 +206,8 @@ body{line-height:1.65}
  details{padding:16px 18px}
  footer{padding:44px 18px}
 }
+
+/* ===== v5.1: FAQ centering fix ===== */
+.faq-list{width:100%;max-width:760px;margin:0 auto;justify-items:stretch}
+.faq-list details{width:100%;max-width:none;margin:0}
+.faq-list summary{text-align:center}
