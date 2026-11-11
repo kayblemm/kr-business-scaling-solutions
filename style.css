@@ -133,3 +133,6 @@ footer{border-top:1px solid var(--line);padding:34px 28px;display:flex;flex-wrap
  .fgrid{grid-template-columns:1fr}
  .form-card{padding:24px 20px}
 }
+
+/* v3.1: kill slight sideways scroll on narrow screens (rotated marquee) */
+html,body{overflow-x:clip}
