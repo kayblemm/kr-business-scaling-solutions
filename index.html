@@ -25,7 +25,7 @@
     <a href="#results">Results</a>
     <a href="#faq">FAQ</a>
   </nav>
-  <a class="btn btn-dark" href="#contact">Free Marketing Review</a>
+  <a class="btn btn-dark nav-cta" href="#request">Free Marketing Review</a>
 </header>
 
 <main id="top">
@@ -37,7 +37,7 @@
       <h1>More Calls.<br>More Bookings.<br><span class="thin">Less Time.</span></h1>
       <p class="lede">We help local small businesses get found on Google, get more inquiries, and stop losing customers they already earned — with websites, ads, automated customer service, and custom systems built for how your business actually runs.</p>
       <div class="cta-row">
-        <a class="btn btn-dark big" href="mailto:krbssconsulting@gmail.com?subject=Free%20Marketing%20Review%20Request">Get My Free Marketing Review</a>
+        <a class="btn btn-dark big" href="#request">Get My Free Marketing Review</a>
         <a class="btn btn-ghost big" href="https://m.me/61596202481703" target="_blank" rel="noopener">Message on Facebook</a>
       </div>
       <p class="micro">Free initial marketing review · No prices online — every business is different, so every plan is custom · Portage, IN &amp; all of Northwest Indiana</p>
@@ -217,6 +217,49 @@
       <details class="reveal"><summary>What does automated customer service actually do?</summary><p>It answers common questions instantly (hours, services, pricing process, booking), captures the customer’s details, and follows up automatically when someone inquires after hours or you miss a call — so a lead never goes cold waiting on a reply.</p></details>
       <details class="reveal"><summary>Who do you work with?</summary><p>Small businesses across Northwest Indiana — especially home-service companies like HVAC, plumbing, roofing, landscaping, contractors, and repair shops, plus local retail and service businesses that depend on calls and bookings.</p></details>
       <details class="reveal"><summary>How do we start?</summary><p>Email <a href="mailto:krbssconsulting@gmail.com">krbssconsulting@gmail.com</a> or message us on Facebook. Tell us your business name and what you do — we run the free review and come back with what we found.</p></details>
+    </div>
+  </section>
+
+
+  <!-- REQUEST FORM -->
+  <section id="request" class="section alt">
+    <p class="eyebrow reveal">REQUEST YOUR FREE REVIEW</p>
+    <h2 class="reveal">Tell us about your business</h2>
+    <p class="wide reveal">Two minutes, no pressure. This goes straight to our inbox at krbssconsulting@gmail.com — we read every one and reply from there.</p>
+    <div class="form-card reveal">
+      <form id="kr-form" action="https://formsubmit.co/krbssconsulting@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="New Free Review Request — KR Website">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://krsolutions.freebuff.page/#request">
+        <input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="fgrid">
+          <div class="field"><label for="f-name">Your name *</label><input id="f-name" name="name" type="text" required autocomplete="name" placeholder="First &amp; last name"></div>
+          <div class="field"><label for="f-biz">Business name</label><input id="f-biz" name="business" type="text" autocomplete="organization" placeholder="Your company"></div>
+          <div class="field"><label for="f-email">Email *</label><input id="f-email" name="email" type="email" required autocomplete="email" placeholder="you@yourbusiness.com"></div>
+          <div class="field"><label for="f-phone">Phone (optional)</label><input id="f-phone" name="phone" type="tel" autocomplete="tel" placeholder="Best number to reach you"></div>
+          <div class="field"><label for="f-cat">What are you looking for? *</label>
+            <select id="f-cat" name="category" required>
+              <option value="" disabled selected>Pick the closest one</option>
+              <option>Free Marketing Review</option>
+              <option>Get Found — Google Profile, Reviews &amp; Local SEO</option>
+              <option>Website — New or Redo</option>
+              <option>Google Ads / Ad Audit</option>
+              <option>Automated Customer Service &amp; Follow-Up</option>
+              <option>Admin Panel / Business System</option>
+              <option>Not sure — help me figure it out</option>
+              <option>Other</option>
+            </select></div>
+          <div class="field"><label for="f-pref">Best way to reply</label>
+            <select id="f-pref" name="preferred_contact">
+              <option>Email</option><option>Phone call</option><option>Text / WhatsApp</option><option>Facebook Messenger</option>
+            </select></div>
+          <div class="field full"><label for="f-msg">Tell us what you want *</label><textarea id="f-msg" name="message" required placeholder="What does your business do, where are you located, and what’s the biggest thing you want fixed or built?"></textarea></div>
+        </div>
+        <button class="btn btn-dark big submit-btn" type="submit">Send My Request</button>
+        <p id="form-status" class="form-status" role="status"></p>
+        <p class="micro">Goes directly to krbssconsulting@gmail.com. We reply from that inbox — check your email (and spam folder) for our response. No spam, no list, ever.</p>
+      </form>
     </div>
   </section>
 
