@@ -7,3 +7,5 @@ Deployed at https://krsolutions.freebuff.page via Freebuff.
 - Phone (840) 800-1377 is WhatsApp only.
 - No prices anywhere on the site — every plan is custom.
 - Client Results section is intentionally an honest "coming soon" until real client stories exist.
+- Contact form: FormSubmit (free) -> krbssconsulting@gmail.com, submitter email is the reply-to.
+  One-time activation: the first submission sends a FormSubmit confirmation email to that inbox; click it once and the form is fully live.
