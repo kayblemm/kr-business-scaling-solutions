@@ -10,3 +10,4 @@ Deployed at https://krsolutions.freebuff.page via Freebuff.
 - Contact form: FormSubmit (free) -> krbssconsulting@gmail.com, submitter email is the reply-to.
   One-time activation: the first submission sends a FormSubmit confirmation email to that inbox; click it once and the form is fully live.
 - v4: premium centered redesign (marquee/3D scene/floating chips removed) + "Looking for Panelly?" section linking to https://panelly.freebuff.page.
+- v5: declutter pass (Why KR section cut to a slim service-area strip, bullets trimmed, copy shortened) + phone-first CSS; published first, THEN backed up to GitHub per Kaleb's order.
