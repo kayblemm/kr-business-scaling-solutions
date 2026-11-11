@@ -29,7 +29,7 @@ a{color:inherit}
 .hero h1{font-size:clamp(46px,7vw,84px);font-weight:900}
 .hero h1 .thin{font-weight:400;color:var(--mid)}
 .lede{font-size:19px;margin:24px 0 30px;max-width:34em}
-.ctarow{display:flex;flex-wrap:wrap;gap:12px}
+.cta row{display:flex;flex-wrap:wrap;gap:12px}
 .center-row{justify-content:center}
 .micro{font-size:13px;color:var(--mid);margin-top:16px}
 .micro.light-m{color:#bdbdbd}
@@ -144,7 +144,7 @@ html,body{overflow-x:clip}
 .hero-mark i:nth-child(1){height:28px}.hero-mark i:nth-child(2){height:48px}.hero-mark i:nth-child(3){height:72px}
 h1{font-size:clamp(46px,7.5vw,78px);letter-spacing:-.02em;line-height:1.02}
 .lede{margin:0 auto 34px}
-.ctarow{justify-content:center}
+.cta row{justify-content:center}
 .section{text-align:center;padding:104px 24px}
 .section .wide{margin-left:auto;margin-right:auto}
 h2{font-size:clamp(32px,4.6vw,46px);letter-spacing:-.015em}
