@@ -173,3 +173,36 @@ footer{text-align:center}
  .section{padding:72px 20px}
  .panelly-mark{font-size:56px}
 }
+
+/* ===== v5: declutter + mobile optimization ===== */
+body{line-height:1.65}
+.section{padding:120px 24px}
+.card,.step{box-shadow:none;border-color:#ececea}
+.panel{background:#131313;border-color:#262626}
+.areas-strip{padding:56px 24px;text-align:center;border-top:1px solid #eee}
+.areas-label{font-family:Archivo,sans-serif;font-weight:800;font-size:13px;letter-spacing:.22em;text-transform:uppercase;margin-bottom:18px}
+.areas-strip .micro{max-width:560px;margin:16px auto 0}
+.dark-scene{background:var(--ink)}
+@media(max-width:900px){
+ .svc-grid,.grid2,.grid3,.scen-grid,.steps{grid-template-columns:1fr;gap:14px}
+}
+@media(max-width:640px){
+ .section{padding:64px 18px}
+ .hero{padding:64px 18px 52px}
+ h1{font-size:42px}
+ h2{font-size:30px}
+ .lede{font-size:17px}
+ .card,.step,.panel{padding:22px}
+ .card h3,.panel h3{font-size:19px}
+ .card li,.panel li{font-size:15px;margin:7px 0}
+ .steps .step b{font-size:26px}
+ .cta-row .btn{width:100%;text-align:center}
+ .hero .cta-row{flex-direction:column}
+ .chips span{font-size:12px;padding:6px 11px}
+ .areas-strip{padding:44px 18px}
+ .form-card{padding:22px 18px}
+ .panelly-mark{font-size:52px}
+ .scen{padding:22px}
+ details{padding:16px 18px}
+ footer{padding:44px 18px}
+}
